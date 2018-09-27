@@ -35,3 +35,10 @@ body {
 footer {
     background: #d6bff3;
 }
+
+/* images */
+
+img {
+    height: auto;
+    width: 500px;
+}
