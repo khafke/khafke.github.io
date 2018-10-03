@@ -35,7 +35,8 @@ a:hover {
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #3b0239;
-    background-image: url(../images/paw-prints.png);
+    background-image: url(../images/cat-bg.png);
+    background-position: right bottom;
 }
 
 /* headers */
