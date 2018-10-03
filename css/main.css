@@ -6,6 +6,7 @@ header {
     background-color: #ffe6ff;
     color: #3b0239;
     text-align: center;
+    background-image: url(../images/cat-fur.jpg)
 }
 
 /* navigation */
@@ -51,15 +52,6 @@ h2 {
     padding: 10px;
   }
 
-.basic {
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-
-.favorite {
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }  
 
 /* footer */
 
