@@ -36,8 +36,9 @@ body {
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 100px auto;
+    background-color: #3b0239
     font-family: Arial, Helvetica, sans-serif;
-    color: #3b0239;
+    color: #ffe6ff;
 }
 
 /* headers */
