@@ -54,13 +54,10 @@ h2 {
 .grid-container {
     display: grid;
     grid-template-columns: 20% 40% 40%;
+    background-color: #f3f3f3;
     grid-gap: 10px 10px;
     padding: 10px;
   }
-
-.grid-container > div {
-    background-color: #f3f3f3;
-    padding: 20px 0;
 }
 
 /* footer */
