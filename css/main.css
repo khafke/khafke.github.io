@@ -42,10 +42,11 @@ body {
     color: #5c5c5c;
 }
 
-body > p {
+h2 > p {
     font-family: 'Raleway';
     font-size: 15px;
 }
+
 /* headers */
 
 h2 {
