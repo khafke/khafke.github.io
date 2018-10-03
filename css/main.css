@@ -3,8 +3,8 @@
 
 header {
     font-family: 'Raleway', Helvetica, sans-serif;
-    background-color: #ffe6ff;
-    color: #965493;
+    background-color: #5c5c5c;
+    color: #e6e6e6;
     text-align: center;
 
 }
@@ -13,7 +13,7 @@ header {
 
 nav {
     font-family: Arial, Helvetica, sans-serif;
-    background: #d6bff3;
+    background: #e6e6e6;
     text-align: center;
 
 }
@@ -21,13 +21,13 @@ nav {
 /* links */
 
 a {
-    color: #965493;
+    color: #5c5c5c;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ffe6ff;
-    background-color: #965493;
+    color: #e6e6e6;
+    background-color: #5c5c5c;
 }
 
 a:active {
@@ -38,10 +38,8 @@ a:active {
 
 body {
     background-image: url(../images/wood-background.jpg);
-    /* background-position: right bottom;
-    background-repeat: no-repeat; */
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffe6ff;
+    color: #5c5c5c;
 }
 
 /* headers */
