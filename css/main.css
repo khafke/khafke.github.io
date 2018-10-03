@@ -35,6 +35,13 @@ body {
     color: #3b0239;
 }
 
+/* headers */
+
+h2 {
+    font-family: 'Francois One';
+    font-size: 20px;
+}
+
 /* grid */
 
 .grid-container {
