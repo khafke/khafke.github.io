@@ -6,7 +6,9 @@ header {
     background-color: #ffe6ff;
     color: #3b0239;
     text-align: center;
-    background-image: url(../images/cat-fur.jpg)
+    background-image: url(../images/paw-prints.jpg);
+    background-repeat: repeat;
+    
 }
 
 /* navigation */
