@@ -6,6 +6,7 @@ header {
     background-color: #5c5c5c;
     color: #f3f3f3;
     text-align: center;
+    padding: 20px;
 
 }
 
@@ -38,10 +39,13 @@ a:active {
 
 body {
     background-image: url(../images/wood-background.png);
-    font-family: Arial, Helvetica, sans-serif;
     color: #5c5c5c;
 }
 
+body > p {
+    font-family: 'Raleway';
+    font-size: 15px;
+}
 /* headers */
 
 h2 {
