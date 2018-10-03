@@ -41,7 +41,9 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
   }
-
+.basics {
+    grid-column-start: 1;
+    grid-column-end: 4;
 /* footer */
 
 footer {
