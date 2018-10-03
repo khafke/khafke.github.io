@@ -39,7 +39,9 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px 10px;
+    padding: 10px;
   }
 .basics {
     grid-column-start: 1;
