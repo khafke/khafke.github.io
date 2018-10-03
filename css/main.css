@@ -2,7 +2,7 @@
 /* header */
 
 header {
-    font-family: Lalezar, Helvetica, sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     background-color: #ffe6ff;
     color: #3b0239;
     text-align: center;
@@ -38,7 +38,7 @@ body {
 /* headers */
 
 h2 {
-    font-family: 'Lalezar';
+    font-family: 'Raleway';
     font-size: 20px;
 }
 
@@ -52,11 +52,13 @@ h2 {
   }
 
 .basic {
-    grid-column: 1 / 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
 
 .favorite {
-    grid-column: 1 / 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
   }  
 
 /* footer */
