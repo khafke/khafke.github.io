@@ -39,7 +39,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 500px 500px 500px 500px;
+    grid-template-columns: 20% 40% 40%;
     grid-gap: 10px 10px;
     padding: 10px;
   }
