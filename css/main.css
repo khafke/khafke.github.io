@@ -44,6 +44,14 @@ body {
     padding: 10px;
   }
 
+.basic {
+    grid-column: 1 / 4;
+  }
+
+.favorite {
+    grid-column: 1 / 4;
+  }  
+
 /* footer */
 
 footer {
