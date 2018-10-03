@@ -58,6 +58,10 @@ h2 {
     padding: 10px;
   }
 
+.grid-container > div {
+    background-color: #e6e6e6;
+    padding: 20px 0;
+}
 
 /* footer */
 
