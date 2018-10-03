@@ -22,11 +22,16 @@ nav {
 
 a {
     color: #965493;
+    text-decoration: none;
 }
 
 a:hover {
     color: #ffe6ff;
     background-color: #965493;
+}
+
+a:active {
+    text-decoration: underline;
 }
 
 /* body */
@@ -35,7 +40,6 @@ body {
     background-image: url(../images/wood-background.jpg);
     /* background-position: right bottom;
     background-repeat: no-repeat; */
-    background-color: #965493;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffe6ff;
 }
