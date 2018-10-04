@@ -19,7 +19,7 @@ nav {
 
 }
 
-nav > a{
+nav > a {
     font-family: 'Open Sans' sans-serif;
     font-weight: bold;
 }
@@ -72,6 +72,11 @@ h2 {
 
 footer {
     font-family:'Open Sans', sans-serif;
+    background-color: #dddddd
+}
+
+footer > p {
+    font-style: italic;
 }
 
 /* images */
