@@ -7,6 +7,7 @@ header {
     color: #f3f3f3;
     text-align: center;
     padding: 10px;
+    width: 100%
 
 }
 
@@ -15,6 +16,7 @@ header {
 nav {
     background: #dddddd;
     text-align: center;
+    width: 100%
 
 }
 
@@ -83,6 +85,7 @@ h2 {
     background-color: #dddddd;
     border: 5px solid #5c5c5c;
     padding: 30 px;
+    width: 100%
 
 }
 
