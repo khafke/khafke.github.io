@@ -19,6 +19,7 @@ nav {
 }
 
 nav > a {
+    font-family: 'Open Sans' sans-serif;
     font-weight: bold;
 }
 
@@ -84,6 +85,7 @@ footer {
     font-family:'Open Sans', sans-serif;
     background-color: #dddddd;
     font-size: 12px;
+    display: inline;
 }
 
 footer > p {
@@ -92,7 +94,6 @@ footer > p {
 
 p.course{
     text-align: right;
-    display: inline;
 }
 
 /* images */
