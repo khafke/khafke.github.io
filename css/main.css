@@ -51,6 +51,18 @@ body p {
     font-family: 'Open Sans', sans-serif;
 }
 
+p.basic {
+    color: #766e97;
+}
+
+p.history {
+    color: #976e97
+}
+
+p.favorite {
+    color: #6e7e97
+}
+
 /* headers */
 
 h2 {
