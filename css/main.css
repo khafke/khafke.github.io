@@ -89,6 +89,10 @@ footer > p {
     font-style: italic;
 }
 
+p.course{
+    text-align: right
+}
+
 /* images */
 
 img {
