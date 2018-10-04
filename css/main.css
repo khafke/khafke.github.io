@@ -20,7 +20,6 @@ nav {
 }
 
 nav > a {
-    font-family: 'Open Sans' sans-serif;
     font-weight: bold;
 }
 
@@ -32,8 +31,7 @@ a {
 }
 
 a:hover {
-    color: #f3f3f3;
-    background-color: #5c5c5c;
+    color: #202020;
 }
 
 a:active {
