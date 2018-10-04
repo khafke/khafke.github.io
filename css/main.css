@@ -13,21 +13,19 @@ header {
 /* navigation */
 
 nav {
-    font-family: 'Open Sans' sans-serif;
     background: #dddddd;
     text-align: center;
 
 }
 
 nav > a {
-    font-family: 'Open Sans' sans-serif;
     font-weight: bold;
 }
 
 /* links */
 
 a {
-    font-family: 'Open Sans' sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #5c5c5c;
     text-decoration: none;
 }
