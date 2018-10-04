@@ -83,7 +83,7 @@ h2 {
 footer {
     font-family:'Open Sans', sans-serif;
     background-color: #dddddd;
-    font-size: 12px
+    font-size: 12px;
 }
 
 footer > p {
@@ -91,7 +91,7 @@ footer > p {
 }
 
 p.course{
-    text-align: right
+    text-align: right;
 }
 
 /* images */
