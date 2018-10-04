@@ -13,7 +13,6 @@ header {
 /* navigation */
 
 nav {
-    font-family: 'Open Sans' sans-serif;
     background: #dddddd;
     text-align: center;
 
@@ -26,6 +25,7 @@ nav > a {
 /* links */
 
 a {
+    font-family: 'Open Sans' sans-serif;
     color: #5c5c5c;
     text-decoration: none;
 }
@@ -83,6 +83,7 @@ h2 {
 footer {
     font-family:'Open Sans', sans-serif;
     background-color: #dddddd;
+    font-size: 12px
 }
 
 footer > p {
