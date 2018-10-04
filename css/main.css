@@ -49,15 +49,15 @@ body p {
     font-family: 'Open Sans', sans-serif;
 }
 
-p.basic {
+.basic {
     color: #766e97;
 }
 
-p.history {
+.history {
     color: #976e97;
 }
 
-p.favorite {
+.favorite {
     color: #6e7e97;
 }
 
@@ -92,6 +92,7 @@ footer > p {
 
 p.course{
     text-align: right;
+    display: inline;
 }
 
 /* images */
