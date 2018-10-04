@@ -86,11 +86,6 @@ footer {
     font-family:'Open Sans', sans-serif;
     background-color: #dddddd;
     font-size: 12px;
-    display: inline;
-}
-
-footer > p {
-    font-style: italic;
 }
 
 p.course{
