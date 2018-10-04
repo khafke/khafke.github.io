@@ -78,6 +78,12 @@ h2 {
     padding: 10px;
   }
 
+.grid-item {
+    background-color: #dddddd;
+    border: 1px solid #5c5c5c;
+    
+}
+
 /* footer */
 
 footer {
