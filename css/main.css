@@ -13,31 +13,19 @@ header {
 
 }
 
-/* navigation */
-
-/* nav {
-    background: #dddddd;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-}
-
-nav > a {
-    font-weight: bold;
-} */
-
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #dddddd;
 }
 
 .navbar a {
     font-size: 16px;
-    color:#f3f3f3;
+    color:#5c5c5c;
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
 
 }
 
@@ -127,7 +115,7 @@ img {
 
 /* media queries */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     body {
         background-color: #c7ebf0a1;
         
@@ -150,15 +138,9 @@ img {
         width: 200px;
         margin-left: 2%;
     }
-
-    /* nav {
-        background: #dddddd;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 100%;
-    } */
     
+/* nav */
+
     .dropbtn {
         visibility: visible;}
 

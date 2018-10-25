@@ -1,0 +1,105 @@
+/* header */
+
+header {
+   font-family: 'Raleway', sans-serif;
+   background-color: #5c5c5c;
+   color: #f3f3f3;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width:100%;
+
+}
+
+/* navigation */
+
+nav {
+   background: #dddddd;
+   text-align: center;
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+}
+
+nav > a {
+   font-weight: bold;
+}
+
+/* links */
+
+a {
+   font-family: 'Raleway', sans-serif;
+   color: #5c5c5c;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #202020;
+}
+
+a:active {
+   text-decoration: underline;
+}
+
+/* body */
+
+body {
+   background-image: url(../images/wood-background.png);
+   color: #5c5c5c;
+   width: 100%;
+
+}
+
+body p {
+   font-family: 'Open Sans', sans-serif;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+/* headers */
+
+h2 {
+   font-family: 'Raleway', sans-serif;
+   font-size: 20px;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+/* grid */
+
+.grid-container {
+   display: grid;
+   grid-template-columns: 20% 40% 40%;
+   background-color: #f3f3f3;
+   grid-gap: 10px 10px;
+   padding: 10px;
+   width: 100%
+ }
+
+.grid-item {
+   background-color: #dddddd;
+   border: 5px solid #5c5c5c;
+   padding: 30 px;
+   
+
+}
+
+/* footer */
+
+footer {
+   font-family:'Open Sans', sans-serif;
+   background-color: #dddddd;
+   font-size: 12px;
+}
+
+p.course{
+   text-align: right;
+}
+
+/* images */
+
+img {
+   height: auto;
+   width: 350px;
+}
