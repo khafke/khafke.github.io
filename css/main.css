@@ -52,10 +52,11 @@ a:active {
 /* body */
 
 body {
-    background-color: #eeeded;
+    background-image: url(../images/wood-background.png);
+    color: #5c5c5c;
     width: 100%;
-
-}
+ 
+ }
 
 body p {
     font-family: 'Open Sans', sans-serif;
@@ -115,7 +116,7 @@ img {
 
 /* media queries */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 635px) {
     body {
         background-color: #c7ebf0a1;
         
