@@ -24,7 +24,7 @@ header {
 
 .navbar a {
   font-size: 16px;
-  color:#5c5c5c;
+  color:#dddddd;
   padding: 10px;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -98,7 +98,7 @@ h2 {
 .grid-container {
    display: grid;
    grid-template-columns: 50% 50%;
-   background-color: #f3f3f3;
+   background-color: #dddddd;
    grid-gap: 0px;
    width: 100%;
  }
@@ -159,7 +159,7 @@ img {
   }
 
   .grid-item {
-      background-color: #dddddd;
+      background-color: #f3f3f3;
       padding: 10 px;
       width: 100%;
       align-content: center;
