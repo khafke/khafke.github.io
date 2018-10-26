@@ -24,7 +24,7 @@ header {
 
 .navbar a {
   font-size: 16px;
-  color:#dddddd;
+  color:#5c5c5c;
   padding: 10px;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -95,19 +95,18 @@ h2 {
 
 /* grid */
 
+
 .grid-container {
-   display: grid;
-   grid-template-columns: 50% 50%;
-   background-color: #dddddd;
-   grid-gap: 0px;
-   width: 100%;
- }
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #f3f3f3;
+  width: 100%;
+}
 
 .grid-item {
-   background-color: #dddddd;
-   padding: 30 px;
-   width: 100%;
-   align-content: center;
+  background-color: #f3f3f3;
+  width: 100%;
+  align-content: center;
 
 }
 
@@ -153,7 +152,7 @@ img {
   .grid-container {
       display: grid;
       grid-template-columns: 50% 50%;
-      background-color: #c7ebf0;
+      background-color: #f3f3f3;
       width: 100%;
       column-count: 1;
   }
