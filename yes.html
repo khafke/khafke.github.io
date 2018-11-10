@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
+</head>
+<body onload="startGame()">
+<script>
+
+function startGame() {
+    myGameArea.start();
+}
+
+var myGameArea = {
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = 800;
+        this.canvas.height = 500;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+        this.context.lineCap = 'round';
+        this.context.lineJoin = 'round';
+        this.context.lineWidth = 10;
+        
+        this.canvas.addEventListener('mouseenter', function(event) {
+          this.context.beginPath();
+          this.context.moveTo(event.offsetX, event.offsetY);
+        }.bind(this))
+
+        this.canvas.addEventListener('mousemove', function(event) {
+          this.context.lineTo(event.offsetX, event.offsetY);
+          this.context.stroke();
+        }.bind(this))
+
+        this.canvas.addEventListener('mouseleave', function(event) {
+          this.context.closePath();
+        }.bind(this))
+
+        document.addEventListener('keydown', function(event) {
+           switch (event.key) {
+              case 'b':
+                this.context.closePath();
+                this.context.beginPath();
+                this.context.strokeStyle = 'blue';
+                break;
+              case 'g':
+                this.context.closePath();
+                this.context.beginPath();
+                this.context.strokeStyle = 'green';
+                break;
+              case 'r':
+                this.context.closePath();
+                this.context.beginPath();
+                this.context.strokeStyle = 'red';
+                break;
+              case 'y':
+                this.context.closePath();
+                this.context.beginPath();
+                this.context.strokeStyle = 'yellow';
+                break;
+              case ' ':
+                this.context.closePath();
+                this.context.beginPath();
+                this.context.clearRect(0, 0, this.canvas.width, this.canvas.height)
+                break;
+           }
+
+           switch (event.code) {
+            case 'ArrowUp':
+                this.context.closePath();
+                this.context.beginPath();
+                this.context.lineWidth++;
+                break;
+            case 'ArrowDown':
+              this.context.closePath();
+              this.context.beginPath();
+              this.context.lineWidth--;
+              break;
+           }
+        }.bind(this))
+    }
+}
+
+</script>
+</body>
+</html>
