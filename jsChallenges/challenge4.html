@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<title>Challenge 4</title>
+    <style>
+
+    .errormsg { 
+    color:red;
+    font-family: 'Ubuntu'
+    } 
+
+    </style>
+    
+    <script>
+      
+    $(function () {
+
+    $('#submit').click(function () {
+        if ($("#fullname").val() == "") {
+            $("#nameerrormsg").css({
+                dislpay: 'block',
+            });
+            return false
+        } else {
+            $("#nameerrormsg").css({
+                display: 'none',
+            });
+            return true
+        }
+    });
+
+        $('#submit').click(function () {
+        if ($("#streetaddr").val() == "") {
+            $("#addrerrormsg").css({
+                dislpay: 'block',
+            });
+            return false
+        } else {
+            $("#addrerrormsg").css({
+                display: 'none',
+            });
+            return true
+        }
+    });
+
+    });  
+
+    </script>
+
+
+</head>
+<body>
+    <h1>Challenge 4</h1>
+	<form action="challenge5.html">
+        <fieldset>
+        <legend>Personal details</legend>
+          <label for="fullname">Full name: </label>
+            <input type="text" name="fullname" id="fullname"><br/>
+            <p class="errormsg" id="nameerrormsg">Please enter your name above!</p>
+
+          <label for ="streetaddr"></label>
+            Street Address:
+            <input type="text" name="streetaddr" id="streetaddr">
+            <p class="errormsg" id="addrerrormsg">Please enter your street address!</p>
+        </fieldset>
+        <input type="submit" id = "submit" value="Submit it!" action="challenge5.html"> 
+    </form>
+</body>
+</html>

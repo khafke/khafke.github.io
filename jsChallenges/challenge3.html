@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Challenge 3</title>
+    <script>
+
+      $(function () {
+        
+        $("#form").submit(function() {
+        if ($("input[name='berry']:checked").length == 0) {
+            return false;
+          }
+        });
+      });
+
+    </script>
+
+</head>
+<body>
+  <h1> Challenge 3</h1>
+	 <form id = "form" action = "challenge4.html">
+      <fieldset>
+        <legend>Radio buttons and Check Boxes</legend>
+        <div>
+          What's your favorite berry?: 
+          <label>
+            <input type="radio" name = "berry" value = "s" id="opt-straw" > Strawberries
+          </label>
+          <label>
+            <input type="radio" name = "berry" value = "b"  id="opt-blue" > Blueberries
+        </label>
+      </div>
+  </fieldset>
+  <input type="submit" name="submit" value="Pick your fruit!">
+</form>
+</body>
+</html>
