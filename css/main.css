@@ -6,7 +6,7 @@ header {
     background-color: #5c5c5c;
     color: #f3f3f3;
     text-align: center;
-    width: 100%;
+    margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
     
@@ -38,6 +38,12 @@ header {
     display: none;
 }
 
+a.current {
+    font-size: 17.5px;
+    text-decoration: underline;
+    color: #141414;
+  }
+
 /* links */
 
 a {
@@ -54,18 +60,26 @@ a:active {
     text-decoration: underline;
 }
 
+
+a[href^="#start"] {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    text-align: center;
+
+}
 /* body */
 
 body {
     color: #5c5c5c;
-    width: 100%;
+    /* width: 100%; */
  
  }
 
 body p {
     font-family: 'Open Sans', sans-serif;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* headers */
@@ -73,27 +87,60 @@ body p {
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
 
 }
 
 /* grid */
 
-.grid-container {
+.grid-container-breeds {
     display: grid;
-    grid-template-columns: 20% 40% 40%;
+    grid-template-columns: 50% 50%;
     background-color: #f3f3f3;
     grid-gap: 10px 10px;
-    padding: 10px;
-    width: 100%
-  }
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+    
+.grid-container-mycat {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: #f3f3f3;
+    grid-gap: 10px 10px;
+    margin-left:10%;
+    margin-right:12%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.grid-container-index {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #f3f3f3;
+    grid-gap: 10px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+    
+.grid-item-image {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    border: 1px solid #969595;
+}
 
 .grid-item {
     background-color: #dddddd;
-    border: 5px solid #5c5c5c;
-    padding: 30 px;
-    
+    border: 1px solid #969595;
 
 }
 
@@ -104,16 +151,18 @@ footer {
     color:black;
     background-color: #dddddd;
     font-size: 12px;
-    width: 100%;
+    padding: 5px;
+    
 }
-
 
 /* images */
 
 img {
     height: auto;
-    width: 350px;
-    margin-left: 20%;
+    width: 200px;
+    margin: 0 auto;
+
+
 }
 
 /* media queries */
@@ -194,4 +243,34 @@ img {
     .dropdown:hover .dropdown-content {
         display: block;
     }
+}
+
+/* My Cat */
+
+#image{
+    line-height:350px;
+    width: 350px;
+    height: 350px;
+    border:1px solid #969595;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: #71a5ac;
+    background-size: 100%;
+    margin-bottom:25px;
+    margin-top: 25px;
+    font-size:150%;
+}
+.preview{
+    width:150px;
+    margin-left:10%;
+    border: 1px solid #969595;
+}
+img{
+    width:95%;
+}
+h1{
+    text-align: center;
 }

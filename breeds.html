@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
     <title>Cat Breeds</title>
-    <link rel="stylesheet" href="css/breeds.css">
-    <link META href="cute.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="reset1.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
@@ -13,9 +13,10 @@
 <body>
     <header>
         <h1>Cats</h1>
-        <h2><i>Cat Breeds</i></h2>
     </header>
     
+    <!-- NAV -->
+
     <div class="navbar">
             <div class="dropdown">
               <button class="dropbtn">Navigation 
@@ -30,14 +31,18 @@
             </div> 
           </div>
     
-    <div class="grid-container">
+    <!-- CONTENT -->
+
+    <a href="#start" id=jump>Jump to Content!</a>
+
+    <div class="grid-container-breeds">
         
         <div class=grid-item>
-            <h2>Long Hair</h2>
+            <h2 id=start>Long Hair</h2>
             <p>There are many breeds of cats with long hair. Some of the most popular are the persian, the maine coon, the ragdoll, and the siberian. Cats with long hair require more maintenance than cats with short hair. Depending on age, health, and texture of the fur, you may have to do some grooming for the cat. It is important to comb a long hair cat’s coat to keep it healthy, prevent it from becoming matted, and prevent hairballs.</p>
         </div> 
 
-        <div class=grid-item>
+        <div class=grid-item-image>
             <img src= "images/long-hair-cat.jpg" alt="A cat with long hair">
         </div>
 
@@ -46,24 +51,27 @@
             <p>Additionally, cats can have short hair. Some common cat breeds with short hair are the exotic shorthair, the british shorthair, the american shorthair, and siamese. Cats with short hair require less grooming than long hair cats. It is still important to brush the coat occasionally, though, to help get rid of any excess fur and prevent excessive shedding.</p>
         </div>
 
-        <div class=grid-item>
+        <div class=grid-item-image>
             <img src= "images/short-hair-cat.jpg" alt="A cat with short hair">
         </div>
-        
-        <div class=grid-item>
-            <h2>Other</h2>
-            <p>Most cats have straight, soft, fur with a decent length and thickness, but there are some breeds, some classified as short hair cats, with curly, wiry, or thin to no hair. The rex breed has curly hair, the sphynx is hairless (pictured below), and the american wirehair has wiry hair. Some people are drawn to these breeds because of their unique coat.</p>
-        </div> 
-        
-        <div class=grid-item>
-            <img src= "images/sphynx.jpg" alt="A sphynx cat, with no hair">
-        </div>
+  
     </div>
 
     <footer>
         Kamden Hafke SI 339
     </footer>
-            
+    
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+        $(function(){
+        $('a').each(function() {
+            if ($(this).prop('href') == window.location.href) {
+            $(this).addClass('current');
+            }
+        });
+        });
+    </script>
+
 </body>
 
 </html>

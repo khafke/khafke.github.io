@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
     <title>Cats</title>
+    <link rel="stylesheet" type="text/css" href="reset1.css">
     <link rel="stylesheet" href="css/main.css">
-    <link META href="cute.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -14,8 +14,9 @@
 <body>
     <header>
         <h1>Cats</h1>
-        <h2><i>Home</i></h2>
     </header>
+
+    <!-- NAV -->
 
     <div class="navbar">
         <div class="dropdown">
@@ -31,19 +32,48 @@
         </div> 
       </div>
     
-    <h2 class=basic><i class="fas fa-info-circle"></i> Cat Basics</h2>
-        <p class=basic>Cats are one of the most popular pets. They are a small and furry mammal. Cats are carnivorous. They walk on four legs and have a long tail. They have sharp teeth and claws to kill their prey in the wild. Cats are able to live in the wild and outdoors on their own as they are very talented hunters. They have been domesticated and kept as pets for a very long time, and make great companions.</p>
-    <h2 class=history><i class="fas fa-book-open"></i> History of Cats</h2>
-        <p class=history>Cats were domesticated approximately 4,000 years ago by the ancient Egyptians. They were first used as pest control to protect food. They were worshipped as gods and goddesses. They, specifically black cats, are sometimes seen as bad luck. This came from a short period of time in the Middle Ages when cats were associated with the devil.</p>
-        <img src= "images/egyptian-statue.jpg" alt="An Egyption statue of a cat">
-    <h2 class=favorite><i class="fas fa-heart"></i> My Favorite Animal</h2>
-        <p class=favorite>Cats are my favorite animals. They are much better than dogs. First, they are very low maintenance. You do not have to take them outside for walks or to use the bathroom, they take care of that themselves. Cats will leave you alone when they want, but also give you love when you need it. It is nice to have a little animal wandering around keeping you company all the time. </p>
-    
+    <!-- CONTENT -->
+
+    <div>
+    <a href="#start" id=jump>Jump to Content!</a>
+    </div>
+
+    <div class="grid-container-index">
+        <div class=grid-item>
+            <h2 class=basic id=start><i class="fas fa-info-circle"></i> Cat Basics</h2>
+                <p>Cats are one of the most popular pets. They are a small and furry mammal. Cats are carnivorous. They walk on four legs and have a long tail. They have sharp teeth and claws to kill their prey in the wild. Cats are able to live in the wild and outdoors on their own as they are very talented hunters. They have been domesticated and kept as pets for a very long time, and make great companions.</p>
+        </div>
+
+        <div class=grid-item-image>
+            <img src= "images/sunkizzie.jpg" alt="My cat laying in the sun">
+        </div>
+
+        <div class=grid-item>
+            <h2 class=favorite><i class="fas fa-heart"></i> My Favorite Animal</h2>
+                <p>Cats are my favorite animals. They are much better than dogs. First, they are very low maintenance. You do not have to take them outside for walks or to use the bathroom, they take care of that themselves. Cats will leave you alone when they want, but also give you love when you need it. It is nice to have a little animal wandering around keeping you company all the time. </p>
+        </div>
+
+        <div class=grid-item-image>
+            <img src= "images/black-cat.jpg" alt="A black cat">
+        </div>
+
+    </div>
+
     <footer>
         Kamden Hafke SI 339
     </footer>
 
     <!-- <script src = "scripts/main.js" ></script> -->
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+        $(function(){
+        $('a').each(function() {
+            if ($(this).prop('href') == window.location.href) {
+            $(this).addClass('current');
+            }
+        });
+        });
+    </script>
 
 </body>
 
