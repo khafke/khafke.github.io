@@ -168,10 +168,6 @@ img {
 /* media queries */
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: #c7ebf0a1;
-        
-    }
 
     body p {
         font-family: 'Open Sans', sans-serif;
@@ -181,15 +177,63 @@ img {
     h2 {
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
-        margin-left: 2%;
-        margin-right: 2%;
+        background-color: #f3f3f3;
+        padding: 3px;
     }
     
     img {
         height: auto;
         width: 200px;
-        margin-left: 2%;
     }
+
+    a.current {
+        font-size: 17.5px;
+        text-decoration: underline;
+        color: #71a5ac;
+      }
+
+    /* grid */
+
+.grid-container-breeds {
+    display: block;
+    background-color: #f3f3f3;
+    border: none;
+    padding: 3px 3px 3px 3px;
+}
+    
+.grid-container-mycat {
+    display: block;
+    background-color: #f3f3f3;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+    padding: 3px 3px 3px 3px;
+
+}
+
+.grid-container-index {
+    display: block;
+    border: none;
+    padding: 3px 3px 3px 3px;
+
+}
+    
+.grid-item-image {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    border: none;
+    padding: 3px;
+    
+}
+
+.grid-item {
+    background-color: #dddddd;
+    border: none;
+    padding: 3px;
+
+}
     
 /* nav */
 
@@ -245,6 +289,16 @@ img {
     }
 }
 
+@media only screen and (min-width: 768px) {
+    #image{
+        display:none;
+    }
+
+    .preview{
+        display:block;
+    }
+
+}
 /* My Cat */
 
 #image{
