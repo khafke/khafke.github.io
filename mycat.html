@@ -17,10 +17,9 @@
     </header>
     
     <!-- NAV -->
-
     <div class="navbar">
             <div class="dropdown">
-              <button class="dropbtn">Navigation 
+              <button class="dropbtn">Navigation
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
@@ -39,29 +38,28 @@
     <a href="#start" id=jump>Jump to text!</a>
 
     <div id = "image">
-			Hover over an image below
-		</div>
+		Hover over an image below
+	</div>
 
-
-		<img class = "preview" src= "images/young-kizzie.png" alt="Kizzie when she was young">
+        <img class = "preview" src= "images/young-kizzie.png" alt="Kizzie when she was young">
 
         <img class = "preview" src = "images/kizzie.jpg" alt="Kizzie now">
-        
+
         <img class = "preview" src = "images/kizzie-tree.jpg" alt="Under the tree">
 
         <img class = "preview" src = "images/kizzie-upsidedown.jpg" alt="Laying in the sun">
 
 
-		<script>
-			$("img").mouseover(function() {
-				$("#image").css("background-image", "url('"+$(this).attr("src")+"')");
-				$("#image").html($(this).attr("alt"));
-			})
-			$("img").mouseout(function(){
-				$("#image").css("background-image", "");
-				$("#image").html("Hover over an image below");
-			})
-        </script>
+    <script>
+        $("img").mouseover(function() {
+            $("#image").css("background-image", "url('"+$(this).attr("src")+"')");
+            $("#image").html($(this).attr("alt"));
+        })
+        $("img").mouseout(function(){
+            $("#image").css("background-image", "");
+            $("#image").html("Hover over an image below");
+        })
+    </script>
         
 
     <!-- TEXT -->
