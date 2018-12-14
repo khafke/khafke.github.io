@@ -129,6 +129,17 @@ h2 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #f2feff;
+    grid-gap: 10px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
     
 .grid-item-image {
     display: flex;
