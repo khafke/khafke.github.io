@@ -240,6 +240,13 @@ h1{
         border: none;
         padding: 3px 3px 3px 3px;
     }
+
+    .grid-container {
+        display: block;
+        background-color: #f3f3f3;
+        border: none;
+        padding: 3px 3px 3px 3px;
+    }
         
     .grid-container-mycat {
         margin-left:2%;
@@ -326,6 +333,14 @@ h1{
         margin-left:0;
         margin-right:0;
 
+    }
+
+
+    .grid-container {
+        display: block;
+        background-color: #f3f3f3;
+        border: none;
+        padding: 3px 3px 3px 3px;
     }
 
     .grid-container-index {
