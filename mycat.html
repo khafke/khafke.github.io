@@ -32,42 +32,15 @@
             </div> 
           </div>
     
-    <!-- CONTENT -->
+    <!-- CONTENT -->        
 
-    <!-- IMAGES -->
-
-    <a href="#start" id=jump>Jump to text!</a>
-
-    <div id = "image">
-		Hover over an image below
-	</div>
-
-        <img class = "preview" src= "images/young-kizzie.png" alt="Kizzie when she was young">
-
-        <img class = "preview" src = "images/kizzie.jpg" alt="Kizzie now">
-
-        <img class = "preview" src = "images/kizzie-tree.jpg" alt="Under the tree">
-
-        <img class = "preview" src = "images/kizzie-upsidedown.jpg" alt="Laying in the sun">
-
-
-    <script>
-        $("img").mouseover(function() {
-            $("#image").css("background-image", "url('"+$(this).attr("src")+"')");
-            $("#image").html($(this).attr("alt"));
-        })
-        $("img").mouseout(function(){
-            $("#image").css("background-image", "");
-            $("#image").html("Hover over an image below");
-        })
-    </script>
-        
 
     <!-- TEXT -->
      <div class="grid-container-mycat">
        
         <div class=grid-item>
             <h2 id=start>Young Kizzie</h2>
+            <img class=my-cat-image src= "images/young-kizzie.png" alt="Kizzie when she was young">
         </div>
 
         <div class=grid-item>
@@ -77,6 +50,7 @@
 
         <div class=grid-item>
             <h2>Current Kizzie</h2>
+            <img class=my-cat-image src = "images/kizzie-upsidedown.jpg" alt="Laying in the sun">
         </div>
         
         <div class=grid-item>
