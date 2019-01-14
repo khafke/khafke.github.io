@@ -74,7 +74,7 @@ a[href^="#start"] {
 
 body {
     color: #5c5c5c;
- 
+    margin:0;  
  }
 
 body p {
@@ -327,7 +327,6 @@ img {
         background-color: #ffffff;
         border: 5px solid #f3f2f2;
     }
-
 
 
 
